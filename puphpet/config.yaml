@@ -43,7 +43,7 @@ vagrantfile:
             vflsf_ugwhg555gt92:
                 owner: www-data
                 group: www-data
-                source: ./
+                source: 'c:/users/maxxy/mypuphpetapps'
                 target: /var/www
                 sync_type: default
                 smb:
