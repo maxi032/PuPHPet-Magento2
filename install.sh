@@ -7,6 +7,7 @@ if [ ! -f $DUMP_FILE ]; then
     exit 1
 fi
 
+vagrant plugin install vagrant-winnfsd
 vagrant plugin install vagrant-vbguest
 vagrant plugin install vagrant-hostmanager
 vagrant up
